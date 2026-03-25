@@ -2,7 +2,7 @@ window.SITE_DATA = {
   conference: {
     title: 'The Mobile Methods Mini-con @OSU',
     tagline: 'Advancing mobile methods and analytics in Communication and beyond',
-    dates: 'May 1–2, 2026',
+    dates: 'May 1, 2026',
     hostLine:
       'Hosted by the School of Communication in coordination with TDAI at The Ohio State University',
     rsvpUrl: '#',
@@ -53,12 +53,6 @@ window.SITE_DATA = {
       link: 'https://fdc.osu.edu/energy-advancement-and-innovation-center',
       blurb:
         'Day 1 programming will be hosted in person at the Energy Advancement and Innovation Center. Additional logistical details will be added as they are confirmed.'
-    },
-    day2: {
-      name: 'Grange Insurance Audubon Center',
-      link: 'https://www.audubon.org/grange',
-      blurb:
-        'Day 2 workshop activities will be hosted in person at the Grange Insurance Audubon Center. Additional logistical details will be added as they are confirmed.'
     }
   }
 };

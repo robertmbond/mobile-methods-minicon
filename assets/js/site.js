@@ -127,19 +127,11 @@
 
   function renderVenues() {
     const day1 = document.querySelector('[data-venue-day1]');
-    const day2 = document.querySelector('[data-venue-day2]');
     if (day1) {
       day1.innerHTML = `
         <h2>Day 1 · ${data.venues.day1.name}</h2>
         <p>${data.venues.day1.blurb}</p>
         <a class="button button-secondary" href="${data.venues.day1.link}" target="_blank" rel="noopener noreferrer">Visit Venue Website</a>
-      `;
-    }
-    if (day2) {
-      day2.innerHTML = `
-        <h2>Day 2 · ${data.venues.day2.name}</h2>
-        <p>${data.venues.day2.blurb}</p>
-        <a class="button button-secondary" href="${data.venues.day2.link}" target="_blank" rel="noopener noreferrer">Visit Venue Website</a>
       `;
     }
   }
