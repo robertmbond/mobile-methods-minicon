@@ -94,7 +94,7 @@
       .map(
         (speaker) => `
           <article class="card person-card">
-            <img src="${speaker.image}" alt="Placeholder silhouette for ${speaker.name}" loading="lazy" />
+            <img src="${speaker.image}" alt="${speaker.alt || `Headshot of ${speaker.name}`}" loading="lazy" data-speaker-image />
             <div class="card-body">
               <h3>${speaker.name}</h3>
               <p class="muted">${speaker.affiliation}</p>
@@ -104,6 +104,12 @@
         `
       )
       .join('');
+
+    mount.querySelectorAll('[data-speaker-image]').forEach((image) => {
+      image.addEventListener('error', () => {
+        image.src = 'assets/images/speaker-placeholder.svg';
+      });
+    });
   }
 
   function renderOrganizers() {
