@@ -113,7 +113,7 @@
       .map(
         (person) => `
           <article class="card person-card">
-            <img src="${person.image}" alt="${person.alt}" loading="lazy" />
+            <img src="${person.image}" alt="${person.alt}" loading="lazy" data-organizer-image />
             <div class="card-body">
               <h3>${person.name}</h3>
               <p class="muted">${person.title}</p>
@@ -123,6 +123,27 @@
         `
       )
       .join('');
+
+    mount.querySelectorAll('[data-organizer-image]').forEach((image) => {
+      image.addEventListener('error', () => {
+        const src = image.getAttribute('src') || '';
+        const match = src.match(/^(.*)\.(jpg|jpeg|png|webp)$/i);
+        const extensionOrder = ['jpg', 'jpeg', 'png', 'webp'];
+
+        if (match) {
+          const base = match[1];
+          const currentExt = match[2].toLowerCase();
+          const nextExt = extensionOrder[extensionOrder.indexOf(currentExt) + 1];
+
+          if (nextExt) {
+            image.src = `${base}.${nextExt}`;
+            return;
+          }
+        }
+
+        image.src = 'assets/images/organizer-placeholder.svg';
+      });
+    });
   }
 
   function renderVenues() {

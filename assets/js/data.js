@@ -26,25 +26,25 @@ window.SITE_DATA = {
   })),
   organizers: [
     {
-      name: 'Rob Bond',
-      title: 'Organizer',
-      bio: 'Rob Bond is an organizer of the Mini-con. Full professional bio forthcoming and easy to update in the site data file.',
-      image: 'assets/images/organizer-placeholder.svg',
-      alt: 'Placeholder portrait for Rob Bond'
+      name: 'Joe Bayer',
+      title: 'Associate Professor, School of Communication, The Ohio State University',
+      bio: 'Joe Bayer is an Associate Professor in the School of Communication at Ohio State University. His research focuses on mobile methods, particularly the study of mental processes that underlie social connection. <a href="https://www.josephbayer.com/" target="_blank" rel="noopener noreferrer">Visit Joe Bayer\'s website</a>.',
+      image: 'assets/images/bayer.jpg',
+      alt: 'Headshot of Joe Bayer'
     },
     {
-      name: 'Joe Bayer',
-      title: 'Organizer',
-      bio: 'Joe Bayer is an organizer of the Mini-con. Full professional bio forthcoming and easy to update in the site data file.',
-      image: 'assets/images/organizer-placeholder.svg',
-      alt: 'Placeholder portrait for Joe Bayer'
+      name: 'Rob Bond',
+      title: 'Professor, School of Communication, The Ohio State University',
+      bio: 'Rob Bond is a Professor in the School of Communication at Ohio State University and is the faculty lead of the Computational Social Sciences Community of Practice at the Translational Data Analytics Institute. His research focuses on political communication and social networks. <a href="https://robertmbond.net/" target="_blank" rel="noopener noreferrer">Visit Rob Bond\'s website</a>.',
+      image: 'assets/images/bond.jpg',
+      alt: 'Headshot of Rob Bond'
     },
     {
       name: 'Scott Campbell',
-      title: 'Organizer',
-      bio: 'Scott Campbell is an organizer of the Mini-con. Full professional bio forthcoming and easy to update in the site data file.',
-      image: 'assets/images/organizer-placeholder.svg',
-      alt: 'Placeholder portrait for Scott Campbell'
+      title: 'Rinehart Chair in Mediated Communication, School of Communication, The Ohio State University',
+      bio: 'Scott Campbell is the Rinehart Chair in Mediated Communication in the School of Communication at Ohio State University. His research explains the social uses and consequences of mobile media and communication. <a href="https://comm.osu.edu/people/campbell.2844" target="_blank" rel="noopener noreferrer">Visit Scott Campbell\'s website</a>.',
+      image: 'assets/images/campbell.jpg',
+      alt: 'Headshot of Scott Campbell'
     }
   ],
   venues: {
