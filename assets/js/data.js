@@ -124,8 +124,8 @@ window.SITE_DATA = {
       name: 'Morgan Quinn Ross',
       title: 'Assistant Professor, School of Communication, Oregon State University',
       bio: 'Professor Ross\'s research program examines how people use digital technology to weave communication into their lives.<br /><br /><a href="https://liberalarts.oregonstate.edu/directory/morgan-ross" target="_blank" rel="noopener noreferrer">Visit Morgan Quinn Ross\'s profile</a>.',
-      image: 'assets/images/organizer-placeholder.svg',
-      alt: 'Placeholder image for Morgan Quinn Ross'
+      image: 'assets/images/ross.jpg',
+      alt: 'Headshot of Morgan Quinn Ross'
     }
   ],
   venues: {
