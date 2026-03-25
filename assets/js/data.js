@@ -126,7 +126,8 @@ window.SITE_DATA = {
       bio: 'Professor Bond\'s research focuses on political communication and social networks.<br /><br /><a href="https://robertmbond.net/" target="_blank" rel="noopener noreferrer">Visit Rob Bond\'s website</a>.',
       image: 'assets/images/bond.jpg',
       alt: 'Headshot of Rob Bond',
-      focus: '60% 30%'
+      focus: '60% 30%',
+      fit: 'contain'
     },
     {
       name: 'Scott Campbell',
