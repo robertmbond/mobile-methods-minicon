@@ -104,28 +104,32 @@ window.SITE_DATA = {
       title: 'Associate Professor, School of Communication, Ohio State University',
       bio: 'Professor Bayer\'s research focuses on mobile methods, particularly the study of mental processes that underlie social connection.<br /><br /><a href="https://www.josephbayer.com/" target="_blank" rel="noopener noreferrer">Visit Joe Bayer\'s website</a>.',
       image: 'assets/images/bayer.jpeg',
-      alt: 'Headshot of Joe Bayer'
+      alt: 'Headshot of Joe Bayer',
+      focus: '44% 28%'
     },
     {
       name: 'Rob Bond',
       title: 'Professor, School of Communication, Ohio State University',
       bio: 'Professor Bond\'s research focuses on political communication and social networks.<br /><br /><a href="https://robertmbond.net/" target="_blank" rel="noopener noreferrer">Visit Rob Bond\'s website</a>.',
       image: 'assets/images/bond.jpg',
-      alt: 'Headshot of Rob Bond'
+      alt: 'Headshot of Rob Bond',
+      focus: '60% 30%'
     },
     {
       name: 'Scott Campbell',
       title: 'Rinehart Chair in Mediated Communication, School of Communication, Ohio State University',
       bio: 'Professor Campbell\'s research explains the social uses and consequences of mobile media and communication.<br /><br /><a href="https://comm.osu.edu/people/campbell.2844" target="_blank" rel="noopener noreferrer">Visit Scott Campbell\'s website</a>.',
       image: 'assets/images/campbell.jpg',
-      alt: 'Headshot of Scott Campbell'
+      alt: 'Headshot of Scott Campbell',
+      focus: '40% 25%'
     },
     {
       name: 'Morgan Quinn Ross',
       title: 'Assistant Professor, School of Communication, Oregon State University',
       bio: 'Professor Ross\'s research program examines how people use digital technology to weave communication into their lives.<br /><br /><a href="https://liberalarts.oregonstate.edu/directory/morgan-ross" target="_blank" rel="noopener noreferrer">Visit Morgan Quinn Ross\'s profile</a>.',
       image: 'assets/images/ross.jpg',
-      alt: 'Headshot of Morgan Quinn Ross'
+      alt: 'Headshot of Morgan Quinn Ross',
+      focus: '56% 32%'
     }
   ],
   venues: {

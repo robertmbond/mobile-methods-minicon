@@ -113,7 +113,7 @@
       .map(
         (person) => `
           <article class="card person-card">
-            <img src="${person.image}" alt="${person.alt}" loading="lazy" data-organizer-image />
+            <img src="${person.image}" alt="${person.alt}" loading="lazy" style="object-position: ${person.focus || '50% 35%'}" data-organizer-image />
             <div class="card-body">
               <h3>${person.name}</h3>
               <p class="muted">${person.title}</p>
