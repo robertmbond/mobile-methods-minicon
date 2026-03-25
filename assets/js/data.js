@@ -109,7 +109,7 @@ window.SITE_DATA = {
     {
       name: 'Rob Bond',
       title: 'Professor, School of Communication, Ohio State University',
-      bio: 'Rob Bond is the faculty lead of the Computational Social Sciences Community of Practice at the Translational Data Analytics Institute and his research focuses on political communication and social networks.<br /><br /><a href="https://robertmbond.net/" target="_blank" rel="noopener noreferrer">Visit Rob Bond\'s website</a>.',
+      bio: 'Professor Bond\'s research focuses on political communication and social networks.<br /><br /><a href="https://robertmbond.net/" target="_blank" rel="noopener noreferrer">Visit Rob Bond\'s website</a>.',
       image: 'assets/images/rob-bond.jpg',
       alt: 'Headshot of Rob Bond'
     },
