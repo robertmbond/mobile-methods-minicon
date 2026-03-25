@@ -66,7 +66,7 @@
       <footer class="site-footer">
         <div class="container footer-inner">
           <p><strong>${data.conference.title}</strong></p>
-          <p>${data.conference.dates} · Fully in person</p>
+          <p>${data.conference.dates}</p>
           <p>${data.conference.hostLine}</p>
         </div>
       </footer>
