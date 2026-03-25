@@ -121,7 +121,7 @@ window.SITE_DATA = {
       alt: 'Headshot of Scott Campbell'
     },
     {
-      name: 'Morgan Quinn Ross',
+      name: 'Morgan Ross',
       title: 'Assistant Professor, School of Communication, Oregon State University',
       bio: 'Professor Ross\'s research program examines how people use digital technology to weave communication into their lives.<br /><br /><a href="https://liberalarts.oregonstate.edu/directory/morgan-ross" target="_blank" rel="noopener noreferrer">Visit Morgan Quinn Ross\'s profile</a>.',
       image: 'assets/images/ross.jpg',
